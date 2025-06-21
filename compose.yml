@@ -1,0 +1,11 @@
+services:
+  personal-portfolio:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: personal-portfolio
+    ports:
+      - "5173:80"
+    restart: always
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Node.js",
+    "category": "Language",
+    "icon": "🟢",
+    "color": "from-green-400 to-green-600"
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "Database",
+    "icon": "🐘",
+    "color": "from-blue-400 to-blue-600"
+  },
+  {
+    "name": "Golang",
+    "category": "Language",
+    "icon": "💻",
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "name": "Laravel",
+    "category": "Framework",
+    "icon": "🎯",
+    "color": "from-red-400 to-red-600"
+  },
+  
+  {
+    "name": "Redis",
+    "category": "Database",
+    "icon": "🧠",
+    "color": "from-red-500 to-pink-500"
+  },
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "icon": "🐳",
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "name": "Vue / React",
+    "category": "UI",
+    "icon": "⚛️",
+    "color": "from-green-500 to-teal-500"
+  },
+  {
+    "name": "ChatGPT / LLM Tools",
+    "category": "AI / Productivity",
+    "icon": "🤖",
+    "color": "from-gray-600 to-gray-800"
+  }
+]
