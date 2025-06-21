@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 public/images
+public/data

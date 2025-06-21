@@ -101,6 +101,29 @@ export default function HeroSection() {
               <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-md border border-gray-100">
                 <span className="text-sm text-gray-600">📍 Based in Indonesia</span>
               </div>
+
+              <a
+                href="/images/resume.png"
+                download="ikhsan-resume.png"
+                className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-md border border-gray-100 hover:bg-gray-50 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4 text-gray-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1M12 12v6m0 0l-3-3m3 3l3-3M12 4v8"
+                  />
+                </svg>
+                <span className="text-sm text-gray-600">Download Resume</span>
+              </a>
+              
             </motion.div>
           </motion.div>
 
